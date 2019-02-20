@@ -1,4 +1,4 @@
-const utils = require("./utils");
+﻿const utils = require("./utils");
 
 module.exports = {
   title: "Hello VuePress",
@@ -17,7 +17,7 @@ module.exports = {
       description: "VuePressBlog "
     }
   },
-  base: '/vuepress-blog/',
+  base: '/vuepress-blog/',  //部署到gh-pages上，发布https://github.com/<USERNAME>/<REPO>时，需设置base为"/<REPO>/"
   themeConfig: {
     nav: [
       { text: "首页", link: "/index/" },
